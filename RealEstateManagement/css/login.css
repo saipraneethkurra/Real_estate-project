@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(243, 241, 241);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form,
+.register-form {
+  padding: 50px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+}
+
+.form-control {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 25px 15px;
+}
+
+.alert {
+  font-size: 14px;
+}
+
+.password-info {
+  font-size: 12px;
+}
+
+.btn {
+  font-size: 14px !important;
+  border-radius: 5px;
+}
+
+.btn-login {
+  background-color: rgb(165, 27, 68);
+  border-color: rgb(165, 27, 68);
+  padding: 10px 10px;
+}
+
+.btn-login:hover,
+.btn-login:active {
+  background-color: rgb(131, 23, 55) !important;
+  border-color: rgb(131, 23, 55) !important;
+}
+
+.btn-register {
+  border-radius: 5px;
+}
+
+.register-link,
+.register-link:hover {
+  text-decoration: none;
+  font-size: 14px;
+}
